@@ -12,12 +12,20 @@
             margin: 0;
             /* Centramos el contenido vertical y horizontalmente */
             display: flex;
+            flex-direction: column; /* Apila el corazón arriba del texto */
             justify-content: center;
             align-items: center;
             /* Tipo de letra limpio y sin adornos */
             font-family: Arial, sans-serif; 
         }
         
+        /* Estilo del corazón gigante */
+        .corazon {
+            color: #FF0000; /* Rojo puro */
+            font-size: 6rem; /* Tamaño gigante para que destaque */
+            margin-bottom: -15px; /* Acerca un poco el texto al corazón */
+        }
+
         /* Estilo de la frase */
         h1 {
             color: #333333; /* Un gris muy oscuro para que no canse la vista */
@@ -29,6 +37,11 @@
 </head>
 <body>
 
+    <div class="corazon">&hearts;</div>
+    <h1>AMOR, FELICES 5 MESES TE AMO!</h1>
+
+</body>
+</html>
     <h1>AMOR, FELICES 5 MESES TE AMO!</h1>
 
 </body>
